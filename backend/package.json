@@ -1,0 +1,15 @@
+{
+  "name": "reportes-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "pg": "^8.13.1",
+    "puppeteer": "^24.2.1"
+  }
+}
